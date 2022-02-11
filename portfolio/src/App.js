@@ -1,4 +1,5 @@
-import { Navbar } from "./components";
+
+import { Navbar, Header } from "./components";
 import './App.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="tracking-in-expand">
       <div className="grad">
         <Navbar></Navbar>
+        <Header></Header>
         </div>
       </div>
       
