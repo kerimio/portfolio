@@ -3,6 +3,7 @@ import kg from "../../assets/kg.png";
 import angular from "../../assets/angular.png";
 import react from "../../assets/react.png";
 import vue from "../../assets/vue.png";
+import Console from "../Console/Console"
 
 import "./Header.css";
 const Header = () => {
@@ -23,6 +24,7 @@ const Header = () => {
         <div className=".text-pop-up-top">
           <h1 className="myName"> &lt;&gt; Kerim Gökceoglu &lt;/&gt; </h1>
           <p className="welcome">Herzlich Willkommen</p>
+          <Console></Console>
         </div>
       </div>
     </div>
