@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap");
+.headerLeft {
+  margin: 120px;
+  padding-left: 240px;
+}
+
+.headerRight {
+  margin-top: 120px;
+  margin-right: 240px;
+}
+.myName {
+  -webkit-animation: myName 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: myName 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  font-family: "Poppins", sans-serif;
+  font-size: 46px;
+  letter-spacing: -0.6px;
+  word-spacing: 2.8px;
+  color: #ffffff;
+}
+.welcome {
+  animation: welcome 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  letter-spacing: -0.6px;
+  word-spacing: 2.8px;
+  color: #ffffff55;
+  margin-top: -60px;
+  padding-left: 64px;
+}
+
+.webDeveloper {
+  font-family: "Source Code Pro", monospace;
+  margin-bottom: 50px;
+  margin-left: 66px;
+  border: 1px solid #83f383;
+  border-radius: 2px;
+  background: #83f383;
+  width: fit-content;
+}
+
+.circle {
+  position: absolute;
+  margin-right: 800px;
+  right: 0px;
+  height: 600px;
+  width: 600px;
+  background-color: rgb(24, 24, 24);
+  border-radius: 50%;
+  display: inline-block;
+  justify-content: right;
+}
+
+.kerim {
+  position: absolute;
+  margin-right: 850px;
+  right: 0px;
+  display: inline-block;
+  justify-content: right;
+  z-index: 0;
+}
+.rotatingObjects img {
+  -webkit-animation: rotating 20s linear infinite;
+}
+.angular {
+  z-index: 1;
+  position: absolute;
+  margin-right: 33%;
+  margin-top: 20%;
+  right: 0px;
+  height: 160px;
+  width: 160px;
+  background-color: rgb(53, 52, 52);
+  border-radius: 50%;
+  display: inline-block;
+  justify-content: right;
+  filter: drop-shadow(-15px 10px 10px black);
+}
+
+.vue {
+  z-index: 1;
+  position: absolute;
+  margin-right: 30%;
+  margin-top: 5%;
+  right: 0px;
+  height: 100px;
+  width: 100px;
+  background-color: rgb(53, 52, 52);
+  border-radius: 50%;
+  display: inline-block;
+  justify-content: right;
+  filter: drop-shadow(-15px 10px 10px black);
+}
+
+.react {
+  z-index: 1;
+  position: absolute;
+  margin-right: 50%;
+  margin-top: 15%;
+  right: 0px;
+  height: 120px;
+  width: 120px;
+  background-color: rgb(53, 52, 52);
+  border-radius: 50%;
+  display: inline-block;
+  justify-content: right;
+  filter: drop-shadow(-15px 10px 10px black);
+}
+@-webkit-keyframes myName {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 black, 0 2px 0 #cccccc, 0 3px 0 #cccccc,
+      0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc,
+      0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+@keyframes myName {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    text-shadow: none;
+  }
+  100% {
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc,
+      0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc,
+      0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+}
+
+@keyframes welcome {
+  0% {
+    transform: translateY(1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+@keyframes rotating {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
