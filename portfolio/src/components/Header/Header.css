@@ -49,6 +49,7 @@
   border-radius: 50%;
   display: inline-block;
   justify-content: right;
+  z-index: -2;
 }
 
 .kerim {
@@ -57,7 +58,7 @@
   right: 0px;
   display: inline-block;
   justify-content: right;
-  z-index: 0;
+  z-index: -1;
 }
 .rotatingObjects img {
   -webkit-animation: rotating 20s linear infinite;
