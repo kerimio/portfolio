@@ -1,11 +1,11 @@
 import './Console.css';
 const Console = () => {
     return (
-        <div class="console">
+        <div className="console">
   <header>
     <p>guest@kerim</p>
   </header>
-  <div class="consolebody">
+  <div className="consolebody">
     <p>&gt; C:\Users\Arbeit>  npm i herzlich-willkommen</p>
   </div>
   
