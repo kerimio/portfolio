@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap");
+
+.bodySection {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding-top: 5%;
+  background-color: rgb(15, 15, 15);
+}
+
+.wrapper {
+    position:absolute;
+    width: 520px;
+    height: 720px;
+
+}
+.elementsRight {
+  width: 50%;
+  padding-right: 20%;
+  padding-left: 5%;
+}
+
+.elementsLeft {
+  width: 50%;
+  padding-right: 20%;
+  padding-left: 30%;
+
+}
+.headerBig {
+  font-family: "Source Code Pro", monospace;
+  color: white;
+}
+
+.shortDescription {
+  padding-top: 26px;
+  font-family: "Poppins", sans-serif;
+  color: #ffffffa4;
+}
+
+.skillStack {
+  font-family: "Poppins", sans-serif;
+  width: 520px;
+  height: 720px;
+}
+
+.softwareDevelopment {
+  margin-bottom: 2%;
+  border-radius: 5px;
+  background: rgb(32, 32, 32);
+  background: linear-gradient(
+    90deg,
+    rgba(32, 32, 32, 1) 0%,
+    rgba(24, 24, 24, 1) 100%
+  );
+  justify-content: space-between;
+  padding: 10%;
+  height: 240;
+}
+
+.design {
+    margin-bottom: 2%;
+    border-radius: 5px;
+  background: rgb(32, 32, 32);
+  background: linear-gradient(
+    90deg,
+    rgba(32, 32, 32, 1) 0%,
+    rgba(24, 24, 24, 1) 100%
+  );
+  justify-content: space-between;
+  padding: 10%;
+  height: 240;
+}
+
+.conception {
+    margin-bottom: 2%;
+    border-radius: 5px;
+  background: rgb(32, 32, 32);
+  background: linear-gradient(
+    90deg,
+    rgba(32, 32, 32, 1) 0%,
+    rgba(24, 24, 24, 1) 100%
+  );
+  justify-content: space-between;
+  padding: 10%;
+  height: 240;
+}
+
+.softwareDevelopment h1 {
+  color: #83f383;
+}
+
+.conception h1 {
+  color: #83f383;
+}
+
+.design h1 {
+  color: #83f383;
+  transition: all 300ms ease-out;
+}
+
+.design:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(-15px 10px 10px black);
+  transition: all 300ms ease-in;
+}
+
+.conception:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(-15px 10px 10px black);
+  transition: all 300ms ease-in;
+}
+
+.softwareDevelopment:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(-15px 10px 10px black);
+  transition: all 300ms ease-in;
+}
+
+.icon {
+  padding-top: 10px;
+  float: right;
+  justify-content: right;
+  margin: auto;
+}
