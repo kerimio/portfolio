@@ -1,51 +1,8 @@
-
-.bodySection {
-  background-clip: content-box;
-  display: flex;
-  width: 100%;
-  height: 2000px;
-
-  padding-top: 10%;  
-  background-color: rgb(15, 15, 15);
-
-}
-
-.elementsRight {
-  overflow: hidden;
-  float: center;
-  position: absolute;
-  padding-left:  150%;
-  padding-right: 50%;
-}
-
-.elementsLeft {
-  padding-left: 70%;
-  width: 50%;
-  float: left;
-
-}
-
-.content {
-  padding-top: 2%;
-  padding-left: 10%;
-  display: flex;
-  position: relative;
-}
-.headerBig {
-  font-family: "Source Code Pro", monospace;
-  color: white;
-}
-
-.shortDescription {
-  padding-top: 26px;
-  font-family: "Poppins", sans-serif;
-  color: #ffffffa4;
-}
-
 .skillStack {
   font-family: "Poppins", sans-serif;
   width: 520px;
   height: 720px;
+  position: absolute;
 }
 
 .softwareDevelopment {
@@ -63,8 +20,8 @@
 }
 
 .design {
-    margin-bottom: 2%;
-    border-radius: 5px;
+  margin-bottom: 2%;
+  border-radius: 5px;
   background: rgb(32, 32, 32);
   background: linear-gradient(
     90deg,
@@ -77,8 +34,8 @@
 }
 
 .conception {
-    margin-bottom: 2%;
-    border-radius: 5px;
+  margin-bottom: 2%;
+  border-radius: 5px;
   background: rgb(32, 32, 32);
   background: linear-gradient(
     90deg,
