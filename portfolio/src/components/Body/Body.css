@@ -9,12 +9,6 @@
   background-color: rgb(15, 15, 15);
 }
 
-.wrapper {
-    position:absolute;
-    width: 520px;
-    height: 720px;
-
-}
 .elementsRight {
   width: 50%;
   padding-right: 20%;

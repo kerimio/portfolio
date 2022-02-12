@@ -1,12 +1,12 @@
- 
 .wrapper {
     overflow: hidden; /* add this to contain floated children */
 }
 .navbar {
+    padding: 2%;
     font-family: 'Poppins', sans-serif;
     justify-content: space-between;
-    padding: 2rem 6rem;
     overflow: hidden; /* add this to contain floated children */
+
 }
 
 .navbar__logo {
@@ -21,9 +21,10 @@
 
 .navbar__links {
     overflow: hidden; /* add this to contain floated children */
-    align-items: left;
     display: flex;
+    padding-left: 14%;
     flex-direction: row;
+    position: center;
 }
 
 .navbar__links p {
