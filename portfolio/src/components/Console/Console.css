@@ -1,3 +1,4 @@
+
 .console {
   font-family: "Fira Mono";
   width: 700px;
@@ -28,7 +29,8 @@
   color: #63de00;
 }
 
-.console .consolebody p {
+.typeWriter {
+  font-family: "Source Code Pro", monospace;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: 0.15em solid white; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -38,11 +40,28 @@
   line-height: 1.5rem;
 }
 
+.command {
+  animation: 5s fadeIn;
+  animation-fill-mode: forwards;
+  
+  visibility: hidden;
+}
+
 @keyframes typing {
   from {
     width: 0;
   }
   to {
     width: 50%;
+  }
+}
+
+
+@keyframes fadeIn {
+  99% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
   }
 }
