@@ -2,10 +2,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap");
 
 .bodySection {
+  position: absolute;
+  background-clip: content-box;
+  overflow: hidden;
   display: flex;
   width: 100%;
   height: auto;
-  padding-top: 5%;
+  padding-top: 35%;
   background-color: rgb(15, 15, 15);
 }
 
