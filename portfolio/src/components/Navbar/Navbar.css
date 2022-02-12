@@ -1,19 +1,12 @@
-
-
-    
+ 
+.wrapper {
+    overflow: hidden; /* add this to contain floated children */
+}
 .navbar {
     font-family: 'Poppins', sans-serif;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 2rem 6rem;
-}
-
-.navbar__links {
-    flex: 1;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    overflow: hidden; /* add this to contain floated children */
 }
 
 .navbar__logo {
@@ -27,9 +20,10 @@
 }
 
 .navbar__links {
+    overflow: hidden; /* add this to contain floated children */
+    align-items: left;
     display: flex;
     flex-direction: row;
-    justify-content: center;
 }
 
 .navbar__links p {
@@ -43,6 +37,31 @@
     
 }
 
+.navbar__right {
+    overflow: hidden; /* add this to contain floated children */
+    height: 25px;
+    justify-content: right;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar__right p {
+    cursor:pointer;
+    color: #ffffff55;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+
+    margin: 0 1rem;
+    
+}
+
 .navbar__links p::first-letter{
     text-decoration: underline;
+}
+
+.socials img {
+    justify-content: right;
+    height: 30px;
+    width: 90px;
 }
