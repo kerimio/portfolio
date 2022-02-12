@@ -1,28 +1,33 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap");
 
 .bodySection {
-  position: absolute;
   background-clip: content-box;
-  overflow: hidden;
   display: flex;
   width: 100%;
   height: auto;
-  padding-top: 35%;
+  padding-top: 10%;  
   background-color: rgb(15, 15, 15);
+
 }
 
 .elementsRight {
-  width: 50%;
-  padding-right: 20%;
-  padding-left: 5%;
+  overflow: hidden;
+  float: center;
+  position: absolute;
+  padding-left:  200%;
+  padding-right: 50%;
 }
 
 .elementsLeft {
+  padding-left: 70%;
   width: 50%;
-  padding-right: 20%;
-  padding-left: 30%;
+  float: left;
 
+}
+
+.content {
+  padding-top: 2%;
+  display: flex;
+  position: relative;
 }
 .headerBig {
   font-family: "Source Code Pro", monospace;
