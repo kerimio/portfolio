@@ -12,3 +12,4 @@ const Console = () => {
   </div>
     )
 }
+export default Console;
