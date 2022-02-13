@@ -5,8 +5,10 @@ import BodyRight from "./BodyRight";
 const Body = () => {
   return (
     <div className="bodySection">
-      <BodyLeft></BodyLeft>
-      <BodyRight></BodyRight>
+      <div className="content">
+      <BodyLeft className="itemsLeft"></BodyLeft>
+      <BodyRight className="itemsRight"> </BodyRight>
+      </div>
     </div>
   );
 };
