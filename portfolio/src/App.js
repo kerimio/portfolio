@@ -1,5 +1,5 @@
 
-import { Navbar, Header, Body } from "./components";
+import { Navbar, Header, Body, Portfolio } from "./components";
 
 
 import './App.css';
@@ -12,6 +12,7 @@ function App() {
         <Navbar></Navbar>
         <Header></Header>
         <Body></Body>
+        <Portfolio></Portfolio>
         </div>
       </div>
       
