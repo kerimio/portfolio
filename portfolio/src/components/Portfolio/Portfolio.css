@@ -6,22 +6,21 @@
   background-clip: content-box;
   display: flex;
   width: 100%;
-  height: 1500px;
+  height: 1000px;
   background-color: #c0e6a7;
 }
 
 .cards {
-    position: absolute;
+    
+  position: absolute;
   background-clip: content-box;
-  width: 75%;
-  height: 800px;
   display: grid;
   flex: wrap;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 10px;
   grid-row-gap: 50px;
   margin: 10px auto;
-  padding-top: 3%;
+  padding-top: 4%;
   padding-left: 20%;
   filter: drop-shadow(0.1rem 0.1rem 1rem rgb(0, 0, 0));
 }
@@ -36,6 +35,18 @@
 .techBike {
 }
 
-.MDBBBtn {
-    color: green;
+.card-body{
+    min-height: 190px;
+}
+
+.card-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+.myProjectTitle {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    margin-left: 20%;
+    margin-top: 2%;
 }

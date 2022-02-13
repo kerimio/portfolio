@@ -6,6 +6,7 @@ import bm_screen from "../../assets/bm_screen.PNG";
 import nanah_screen from "../../assets/nanah_screen.png";
 import motrama_screen from "../../assets/motrama_screen.png";
 import wakeapp from "../../assets/wakeapp.jpg";
+import et_hannover from "../../assets/et_hannover.png";
 import git from "../../assets/git.jpg";
 import {
   MDBCard,
@@ -20,7 +21,9 @@ import {
 const Portfolio = () => {
   return (
     <div className="portfolioMain">
+          <h1 className="myProjectTitle"> Meine Projekte </h1>
       <div className="cards">
+    
         <div className="kego">
           <MDBCard style={{ maxWidth: "22rem" }}>
             <MDBRipple
@@ -175,24 +178,25 @@ const Portfolio = () => {
           </MDBCard>
         </div>
 
-        <div className="motorama">
+        <div className="ethannover">
           <MDBCard style={{ maxWidth: "22rem" }}>
             <MDBRipple
               rippleColor="light"
               rippleTag="div"
               className="bg-image hover-overlay"
             >
-              <MDBCardImage src={angular} fluid alt="..." />
+              <MDBCardImage src={et_hannover} fluid alt="..." />
               <a>
                 <div className="mask"></div>
               </a>
             </MDBRipple>
             <MDBCardBody>
-              <MDBCardTitle>Card title</MDBCardTitle>
+              <MDBCardTitle>Elektroteam Hannover</MDBCardTitle>
               <MDBCardText>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+              Wordpress, MySQL, PHP, CSS
               </MDBCardText>
+              <MDBBtn style={{ backgroundColor: '#1B1B1B' }} href='http://elektroteam-hannover.de/'>Go To Website</MDBBtn>
+
             </MDBCardBody>
           </MDBCard>
         </div>
