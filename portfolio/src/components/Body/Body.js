@@ -4,7 +4,7 @@ import BodyRight from "./BodyRight";
 
 const Body = () => {
   return (
-    <div className="bodySection">
+    <div id="about" className="bodySection">
       <div className="content">
         <BodyLeft className="itemsLeft"></BodyLeft>
         <BodyRight className="itemsRight"> </BodyRight>

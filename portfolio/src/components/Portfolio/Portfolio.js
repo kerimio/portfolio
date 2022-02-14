@@ -20,7 +20,7 @@ import {
 
 const Portfolio = () => {
   return (
-    <div className="portfolioMain">
+    <div id="portfolio" className="portfolioMain">
           <h1 className="myProjectTitle"> Meine Projekte </h1>
       <div className="cards">
     

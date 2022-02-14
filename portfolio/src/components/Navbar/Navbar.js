@@ -1,5 +1,12 @@
 import "./Navbar.css";
 
+
+const scrollToTestDiv = (page) => {
+  const divElement = document.getElementById(page);
+  divElement.scrollIntoView({ behavior: 'smooth' });
+}
+
+
 const Navbar = () => {
   return (
     <div className="wrapper">
@@ -8,16 +15,16 @@ const Navbar = () => {
         <div className="navbar__logo"></div>
         <div className="navbar__links">
           <p>
-            <a> HOME </a>
+            <a onClick={()=> scrollToTestDiv('#')}> HOME </a>
           </p>
           <p>
-            <a> ÜBER MICH </a>
+            <a onClick={()=> scrollToTestDiv('about')}> ÜBER MICH </a>
           </p>
           <p>
-            <a> PROJEKTE </a>
+            <a onClick={()=> scrollToTestDiv('portfolio')}> PROJEKTE </a>
           </p>
           <p>
-            <a> KONTAKT </a>
+            <a onClick={()=> scrollToTestDiv('contact')}> KONTAKT </a>
           </p>
         </div>
         
