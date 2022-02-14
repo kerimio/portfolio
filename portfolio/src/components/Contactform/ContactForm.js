@@ -1,4 +1,6 @@
+import "./ContactForm.css";
 import React, { useState } from "react";
+import { MDBInput, MDBBtn } from "mdb-react-ui-kit";
 
 const ContactForm = () => {
   const [status, setStatus] = useState("Submit");
@@ -23,21 +25,33 @@ const ContactForm = () => {
     alert(result.status);
   };
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
-        <label htmlFor="name">Name:</label>
-        <input type="text" id="name" required />
+    <div className="wrapperContactForm">
+        <h1 className="contactMeText"> Contact Me </h1>
+      <div className="contactForm">
+        <form onSubmit={handleSubmit}>
+          <div>
+            <MDBInput type="text" placeholder="Name" id="name" required />
+          </div>
+          <div>
+            <MDBInput
+              type="email"
+              placeholder="Ihre E-Mail"
+              id="email"
+              required
+            />
+          </div>
+          <div>
+            <MDBInput
+              type="text"
+              placeholder="Ihre Nachricht"
+              id="message"
+              required
+            />
+          </div>
+          <MDBBtn rounded className='mx-2' color='secondary' type="submit">{status}</MDBBtn>
+        </form>
       </div>
-      <div>
-        <label htmlFor="email">Email:</label>
-        <input type="email" id="email" required />
-      </div>
-      <div>
-        <label htmlFor="message">Message:</label>
-        <textarea id="message" required />
-      </div>
-      <button type="submit">{status}</button>
-    </form>
+    </div>
   );
 };
 

@@ -24,18 +24,13 @@
   filter: drop-shadow(0.1rem 0.1rem 1rem rgb(0, 0, 0));
 }
 
-.techBike:hover {
-}
 
 .mask {
   background-color: rgba(251, 251, 251, 0.15);
 }
 
-.techBike {
-}
-
 .card-body {
-  min-height: 190px;
+  height: 190px;
 }
 
 .card-title {
