@@ -15,8 +15,9 @@
 }
 
 .navbar__logo img {
-    width: 62px;
-    height: 16px;
+    width: 0;
+    height: 0;
+    vertical-align: left;
 }
 
 .navbar__links {
@@ -33,10 +34,12 @@
     color: #83f383;
     font-size: 18px;
     line-height: 25px;
-
-
     margin: 0 1rem;
     
+}
+
+.navbar__links p:hover {
+    color: white;  
 }
 
 .navbar__right {

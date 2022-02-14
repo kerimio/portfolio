@@ -1,4 +1,5 @@
 import "./Navbar.css";
+import logo_black from './../../assets/logo_black.png';
 
 
 const scrollToTestDiv = (page) => {
@@ -12,7 +13,9 @@ const Navbar = () => {
     <div className="wrapper">
       <div className="navbar">
         <div className="navar__links"></div>
-        <div className="navbar__logo"></div>
+        <div className="navbar__logo">
+          <img src={logo_black} alt="logo"></img>
+        </div>
         <div className="navbar__links">
           <p>
             <a onClick={()=> scrollToTestDiv('#')}> HOME </a>

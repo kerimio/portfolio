@@ -19,7 +19,7 @@
   grid-row-gap: 50px;
   margin: 10px auto;
   padding-top: 4%;
-  padding-left: 20%;
+  padding-left: 13%;
   filter: drop-shadow(0.1rem 0.1rem 1rem rgb(0, 0, 0));
 }
 
@@ -40,6 +40,6 @@
 .myProjectTitle {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  margin-left: 22%;
+  margin-left: 14%;
   margin-top: 2%;
 }

@@ -37,7 +37,7 @@ const Portfolio = () => {
               </a>
             </MDBRipple>
             <MDBCardBody>
-              <MDBCardTitle>kego.de</MDBCardTitle>
+              <MDBCardTitle>kego.dev</MDBCardTitle>
               <MDBCardText>
                 JavaScript, React.js, Bootstrap, REST, GitHub
               </MDBCardText>
