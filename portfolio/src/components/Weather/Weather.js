@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import GoodWeather from './GoodWeather/GoodWeather';
 import BadWeather from './BadWeather/BadWeather';
+import './Weather.css';
 
 const Weather = () => {
     const [weather, setWeather] = useState('');
@@ -19,8 +20,8 @@ const Weather = () => {
     
     
     return <div>
-        
-        {true ? <GoodWeather> </GoodWeather> : <BadWeather> </BadWeather> }
+        <button className="funcButton" onClick={getWeather()}></button>
+        <h1>{weather}</h1>
          </div>
 }
 

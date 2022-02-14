@@ -23,7 +23,11 @@
   float: left;
 }
 
-.elementsLeft h1, p {
+.elementsLeft h1 {
+  color: white;
+}
+
+.elementsLeft p {
   color: white;
 }
 

@@ -26,7 +26,7 @@ const ContactForm = () => {
   };
   return (
     <div id="contact" className="wrapperContactForm">
-        <h1 className="myProjectTitle"> Contact Me </h1>
+        <h1 className="contactMeText"> Contact Me </h1>
       <div className="contactForm">
         <form onSubmit={handleSubmit}>
           <div>

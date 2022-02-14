@@ -1,5 +1,5 @@
 
-import { Navbar, Header, Body, Portfolio,ContactForm, Footer } from "./components";
+import { Navbar, Header, Body, Weather, Portfolio,ContactForm, Footer } from "./components";
 
 
 import './App.css';
