@@ -28,11 +28,12 @@
 }
 
 .navbar__links p {
+    font-family: "Source Code Pro", monospace;
     cursor:pointer;
-    color: white;
+    color: #83f383;
     font-size: 18px;
     line-height: 25px;
-    text-transform: capitalize;
+
 
     margin: 0 1rem;
     
@@ -57,9 +58,6 @@
     
 }
 
-.navbar__links p::first-letter{
-    text-decoration: underline;
-}
 
 .socials img {
     justify-content: right;

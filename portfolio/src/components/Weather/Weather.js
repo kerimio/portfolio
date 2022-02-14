@@ -21,7 +21,7 @@ const Weather = () => {
     
     return <div>
         <button className="funcButton" onClick={getWeather()}></button>
-        <h1>{weather}</h1>
+  
          </div>
 }
 
