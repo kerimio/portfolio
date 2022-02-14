@@ -2,11 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@600&display=swap");
 
 .portfolioMain {
-
-  background-clip: content-box;
+  padding-left: 6%;
   display: flex;
   width: 100%;
-  height: 1000px;
+  height: 1100px;
   background-color: #c0e6a7;
 }
 
@@ -41,6 +40,6 @@
 .myProjectTitle {
   font-family: "Poppins", sans-serif;
   font-weight: bold;
-  margin-left: 20%;
+  margin-left: 22%;
   margin-top: 2%;
 }
