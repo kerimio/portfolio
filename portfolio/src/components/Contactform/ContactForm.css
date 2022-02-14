@@ -1,0 +1,40 @@
+.contactForm {
+    padding-left: 30%;
+    padding-top: 3%;
+    width: 100%;
+    position: absolute;
+    flex: wrap;
+    place-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 50px;
+    filter: drop-shadow(0.1rem 0.1rem 1rem rgb(0, 0, 0));
+
+}
+
+.wrapperContactForm {
+    background-clip: content-box;
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+
+.contactForm #name, #email {
+    width: 30%;
+}
+
+.contactForm #message {
+    height: 200px;
+    width: 50%
+}
+
+.contactMeText{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    margin-left: 30%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    color: white;
+  }
+  
+
