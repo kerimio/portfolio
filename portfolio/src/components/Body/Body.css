@@ -1,29 +1,32 @@
-
 .bodySection {
   background-clip: content-box;
   display: flex;
   width: 100%;
   height: 1500px;
 
-  padding-top: 10%;  
+  padding-top: 10%;
   background-color: rgb(15, 15, 15);
-
 }
 
 .elementsRight {
+  width: 900px;
   overflow: hidden;
   float: center;
   position: absolute;
-  padding-left:  150%;
+  margin-left: 150%;
   padding-right: 50%;
 }
 
 .elementsLeft {
-  padding-left: 70%;
+  padding-left: 80%;
   width: 50%;
   float: left;
-
 }
+
+.elementsLeft h1, p {
+  color: white;
+}
+
 
 .content {
   padding-top: 2%;
@@ -63,8 +66,8 @@
 }
 
 .design {
-    margin-bottom: 2%;
-    border-radius: 5px;
+  margin-bottom: 2%;
+  border-radius: 5px;
   background: rgb(32, 32, 32);
   background: linear-gradient(
     90deg,
@@ -77,8 +80,8 @@
 }
 
 .conception {
-    margin-bottom: 2%;
-    border-radius: 5px;
+  margin-bottom: 2%;
+  border-radius: 5px;
   background: rgb(32, 32, 32);
   background: linear-gradient(
     90deg,

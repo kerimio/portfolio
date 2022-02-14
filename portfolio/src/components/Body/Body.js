@@ -6,8 +6,8 @@ const Body = () => {
   return (
     <div className="bodySection">
       <div className="content">
-      <BodyLeft className="itemsLeft"></BodyLeft>
-      <BodyRight className="itemsRight"> </BodyRight>
+        <BodyLeft className="itemsLeft"></BodyLeft>
+        <BodyRight className="itemsRight"> </BodyRight>
       </div>
     </div>
   );
