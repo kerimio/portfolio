@@ -17,6 +17,74 @@ a {
   text-decoration: none;
 }
 
+
+.wrapper-header{
+
+height: 55vw !important;
+	
+}
+
+.headerLeft{
+width:47vw !important;
+	padding-left:0px !important;
+}
+
+.myName{
+font-size:3.5vw !important;
+}
+.welcome{
+font-size: 2.7vw !important;
+}
+.console{
+width: 47vw !important;
+height: 34vw !important;
+}
+.typeWriter{
+font-size:1.2vw !important;
+}
+.headerRight.kerim{
+width:34vw !important;
+padding-right:0px !important;
+}
+
+.circle{
+height: 34vw !important;
+width: 34vw !important;
+}
+.vueWrapper{
+padding-left: 238% !important;
+padding-top: 20% !important;
+}
+
+.vue{
+width: 7vw !important;
+    height: 7vw !important;
+}	
+.angularWrapper{
+
+padding-left: 255% !important;
+    padding-top: 144% !important;
+}
+.angular{
+    width: 10vw !important;
+
+}
+.reactWrapper{
+padding-left: 0% !important;
+    padding-top: 263% !important;
+}
+.react{
+width: 8vw !important;
+    height: auto !important;
+}
+.kerim{
+width:34vw !important;
+}
+
+#about{
+padding-top: 0px !important;
+}
+
 .grad {
   font-family: var(--navbar-font);
 }
