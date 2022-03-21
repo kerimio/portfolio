@@ -12,6 +12,459 @@ body {
 
 }
 
+/* edit by HH */
+/* header */
+.navbar__links a {
+    font-size: 1.5vw;
+}
+
+/* first section */
+.wrapper-header{
+
+height: 45vw !important;
+	
+}
+
+.headerLeft{
+width:47vw !important;
+	padding-left:0px !important;
+	margin-left:7% !important;
+}
+.webDeveloper{
+font-size: 1.2vw !important;
+margin-left: 9.5% !important;
+}
+
+.myName{
+font-size:3vw !important;
+}
+.welcome{
+font-size: 2.7vw !important;
+margin-left: 9% !important;
+padding-left:0px !important;
+}
+.console{
+width: 45vw !important;
+height: 25vw !important;
+}
+.console header {
+    height: 4vw !important;
+}
+
+.console header p{
+    line-height: 4vw !important;
+}
+
+
+
+.console .myConsole{
+overflow:hidden !important;
+}
+.typeWriter{
+font-size:1.2vw !important;
+}
+.kerim{
+width:28vw !important;
+padding-right:0px !important;
+}
+
+.circle{
+height: 27vw !important;
+width: 27vw !important;
+}
+.vueWrapper {
+    padding-left: 19vw !important;
+    padding-top: 0vw !important;
+}
+
+.vue{
+width: 5vw !important;
+    height: 5vw !important;
+}	
+.angularWrapper {
+    padding-left: 22vw !important;
+    padding-top: 12vw !important;
+}
+.angular{
+    width: 8vw !important;
+
+}
+.reactWrapper {
+    padding-left: 0% !important;
+    padding-top: 17vw !important;
+}
+.react{
+width: 6vw !important;
+    height: auto !important;
+}
+
+/* about section */
+#about{
+padding-top: 0px !important;
+height: auto !important;
+}
+
+#about .content{
+padding-left:0px !important;
+padding-top:0px !important;
+padding: 6% 2% !important;
+justify-content: space-around !important;
+}
+
+#about h1 {
+    font-size: 3vw !important;
+}
+
+#about p {
+    font-size: 1.2vw !important;
+}
+
+#about .content .elementsLeft{
+
+padding-left:0px !important;
+float:none !important;
+width:42% !Important;
+}
+
+#about .content .elementsLeft .skillStack{
+height: auto !important;
+width: 100% !important;
+}
+#about .content .elementsRight{
+float:none !important;
+margin-left: 0px !important; 
+padding-right: 0px !important; 
+position: static !important;
+width: 54% !important;
+}
+
+/* Portfolio */
+#portfolio{
+flex-direction: column !important;
+padding-top: 0px !important;
+padding-left: 0px !important;
+height:auto !important;
+}
+
+#portfolio h1{
+margin-left: 2% !important;
+}
+
+#portfolio .cards{
+padding-left: 0px !important;
+padding-top: 0px !important;
+position: static !important;
+}
+.cards > div {
+    width: 23vw !important;
+}
+
+.cards > div:last-child {
+    margin-bottom: 15% !important;
+}
+
+.card-body{
+height:auto !important;
+min-height:190px !important;
+}
+
+.cards h5 {
+    font-size: 1.5vw !important;
+}
+.cards p {
+    font-size: 1.2vw !important;
+}
+.cards a {
+    font-size: 1.3vw !important;
+}
+
+/* Contact */
+#contact{
+flex-direction: column !important;
+align-items: center !important;
+justify-content: center;
+}
+#contact .contactMeText{
+padding-bottom: 0px !important;
+font-size: 3.1vw !important;
+margin-left: -32% !important;
+}
+
+#contact .contactForm{
+    padding: 0px!important;
+    width: 50% !important;
+    position: static !important;
+}
+.contactForm form > div {
+    margin-top: 1% !important;
+}
+#email, .contactForm #name {
+    width: 50% !important;
+}
+
+.contactForm #message{
+width:100% !important;
+}
+.contactForm form button{
+margin-top:1% !important;
+}
+
+
+/* For Tablet */
+@media screen and (max-width: 840px)
+{
+
+.myName {
+    -webkit-animation: myNameTab .5s cubic-bezier(.25,.46,.45,.94) both !important;
+    animation: myNameTab .5s cubic-bezier(.25,.46,.45,.94) both !important;
+} 
+
+@keyframes myNameTab{
+0% {
+    text-shadow: none;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+100% {
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc, 0 0px 0 #ccc, 0 0px 0 #ccc, 0 0px 0 #ccc, 0 0px 0 #ccc, 0 50px 30px rgb(0 0 0 / 30%);
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+}
+
+}
+
+
+
+
+/* For mobile */
+@media screen and (max-width: 640px)
+{
+
+.navbar {
+    justify-content: center !important;
+}
+
+.navbar__logo {
+    display:none !important;
+}
+
+.navbar__links {
+    
+    padding-left:0px !important;
+}
+.navbar__links a {
+    font-size: 3vw;
+}
+
+.wrapper-header {
+    height: 166vw !important;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headerLeft {
+    width: 95vw !important;
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+    margin-right:0px !important;
+    text-align: -webkit-center;
+}
+
+.webDeveloper {
+    font-size: 1.9vw !important;
+    margin-left: 0px !important;
+    width: 19% !important;
+    text-align: center !important; 
+}
+
+.myName {
+    font-size: 5.5vw !important;
+    text-align: center !important;
+    -webkit-animation: myNameMobile .5s cubic-bezier(.25,.46,.45,.94) both !important;
+    animation: myNameMobile .5s cubic-bezier(.25,.46,.45,.94) both !important;
+} 
+
+@keyframes myNameMobile{
+0% {
+    text-shadow: none;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+100% {
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 0px 0 #ccc, 0 0px 0 #ccc, 0 0px 0 #ccc, 0 0px 0 #ccc, 0 0px 0 #ccc, 0 0px 0 #ccc, 0 50px 30px rgb(0 0 0 / 30%);
+    -webkit-transform: translateY(-50px);
+    transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+}
+
+.welcome {
+    font-size: 3.7vw !important;
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+    text-align: center !important;
+}
+
+.console {
+    width: 100% !important;
+    height: 51vw !important;
+}
+
+.console header {
+    height: 7vw !important;
+}
+
+.console header p{
+    line-height: 7vw !important;
+}
+
+.typeWriter {
+    font-size: 2.5vw !important;
+}
+
+.headerRight {
+    display: flex;
+    padding-left: 0px !important;
+    position: relative;
+    margin-right: 54%;
+    margin-top: 7%;
+
+}
+
+.kerim {
+    width: 57vw !important;
+    padding-right: 0px !important;
+}
+
+.circle {
+    height: 60vw !important;
+    width: 60vw !important;
+}
+
+
+.vueWrapper {
+    padding-left: 41vw !important;
+    padding-top: 1vw !important;
+}
+.vue {
+    width: 11vw !important;
+    height: 11vw !important;
+}
+
+.angularWrapper {
+    padding-left: 46vw !important;
+    padding-top: 27vw !important;
+}
+.angular {
+    width: 18vw !important;
+}
+
+.reactWrapper {
+    padding-left: 0% !important;
+    padding-top: 36vw !important;
+}
+
+.react {
+    width: 14vw !important;
+    height: auto !important;
+}
+
+
+#about .content {
+    padding: 6% 5% !important;
+    flex-direction: column-reverse !important;
+}
+
+#about h1 {
+    font-size: 6vw !important;
+}
+
+#about p {
+    font-size: 3.2vw !important;
+}
+
+#about .content .elementsLeft {
+    width: 100% !Important;
+}
+
+#about .content .elementsRight {
+    width: 100% !important;
+}
+
+#portfolio{
+height:auto !important;
+}
+
+#portfolio h1 {
+    margin-top: 8% !important;
+}
+
+#portfolio .cards {
+    grid-template-columns: repeat(2,1fr) !important;
+    width: 95% !important;
+}
+
+.cards > div {
+    width: 100% !important;
+}
+
+.card-body {
+    text-align: left;
+}
+
+.cards h5 {
+    font-size: 4.5vw !important;
+}
+
+.cards p {
+    font-size: 3.2vw !important;
+}
+
+.cards a {
+    font-size: 3.3vw !important;
+}
+
+.cards > div:last-child {
+    margin-bottom: 15%;
+}
+
+
+#contact .contactMeText {
+    font-size: 6.1vw !important;
+    margin-left: 0px !important;
+}
+
+#contact .contactForm {
+    width: 90% !important;
+    text-align: center;
+}
+
+#email, .contactForm #name {
+    width: 100% !important;
+}
+
+.contactForm form button {
+    margin-top: 7% !important;
+}
+
+
+}
+
+
+
+
 a {
   color: unset;
   text-decoration: none;
